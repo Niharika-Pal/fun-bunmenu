@@ -71,12 +71,13 @@ Module Program
                             Console.WriteLine("Wrong entry!")
                     End Select
                     Console.WriteLine()
+                    Console.WriteLine("Total bill of your order is = {0}", totalbill & "Rs.")
                 Else
                     ans2 = "no"
                 End If
             End If
         End While
-        Console.WriteLine("Total bill of your order is = {0}", totalbill & "Rs.")
+       
         Console.WriteLine()
         Console.WriteLine("THANK YOU FOR COMING :>)...HAVE A NICE DAY ;) <3")
         Console.WriteLine(vbCrLf & vbCrLf)
