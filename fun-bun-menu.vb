@@ -9,7 +9,7 @@ Module Program
         Dim ans1 As String = "yes"
     
         Console.WriteLine()
-        Console.WriteLine("WELCOME TO FUN-BUN CAFE :<) " & vbCrLf & vbCrLf & "FUN-BUN CAFE MENU" & vbCrLf & vbCrLf & "1. COFFEE = 20 Rs." & vbCrLf & "2. Latte = 20 Rs." & vbCrLf & "3. Cake = 20 Rs." & vbCrLf & "4. Cappuccino = 20 Rs.")
+        Console.WriteLine("WELCOME TO FUN-BUN CAFE :<) " & vbCrLf & vbCrLf & "FUN-BUN CAFE MENU" & vbCrLf & vbCrLf & "1. COFFEE = 20 Rs." & vbCrLf & "2. Latte = 20 Rs." & vbCrLf & "3. Cake = 200 Rs." & vbCrLf & "4. Cappuccino = 20 Rs.")
         Console.WriteLine()
         While True
             If (ans1 = "no") Then
@@ -37,16 +37,16 @@ Module Program
                         ans1 = Console.ReadLine()
 
                     Case 3
-                        Console.WriteLine("How many ?")
+                        Console.WriteLine("How many cake do you want to order ?")
                         order = Console.ReadLine()
-                        bill = order * 20
+                        bill = order * 200
                         totalbill += bill
                         Console.WriteLine()
                         Console.WriteLine("Do you want to order anything else? :)   (yes/no)")
                         ans1 = Console.ReadLine()
 
                     Case 4
-                        Console.WriteLine()
+                        Console.WriteLine("How many cappuccinos do you want to order ?")
                         order = Console.ReadLine()
                         bill = order * 20
                         totalbill += bill
